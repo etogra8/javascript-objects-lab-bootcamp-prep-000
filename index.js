@@ -16,3 +16,4 @@ function deleteFromObjectByKey(object,key) {
   delete newObj.corn;
   return newObj;
 }
+
