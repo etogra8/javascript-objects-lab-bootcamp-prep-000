@@ -23,7 +23,7 @@ function destructivelyDeleteFromObjectByKey(object,key) {
 }
 
 function destructivelyDeleteFromObjectByKey(object,key) {
-  var food = {fajita:'2 plates',chicken:3};
-  delete foodchicken;
+  var food = {fajita:'2 plates',pork:3};
+  delete food[pork];
   return food;
 }
