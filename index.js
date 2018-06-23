@@ -21,3 +21,9 @@ function destructivelyDeleteFromObjectByKey(object,key) {
   var food = {fajita:'2 plates',chicken:3};
   return delete food.chicken
 }
+
+function destructivelyDeleteFromObjectByKey(object,key) {
+  var food = {fajita:'2 plates',chicken:3};
+  delete food.chicken;
+  return food;
+}
